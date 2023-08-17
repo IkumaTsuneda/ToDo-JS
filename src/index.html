@@ -7,31 +7,26 @@
 
   <body>
     <div class="input-area">
-      <input placeholder="TODOを入力">
-      <button>追加</button>
+      <input id="add-text" placeholder="TODOを入力">
+      <button id="add-button">追加</button>
     </div>
-    <div class="imcomplete-area">
-      <p>未完了のTODO</p>
-      <ul>
-        <li>TODOです</li>
-        <div>
-          <button>完了</button>
-          <button>削除</button>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul id="incomplete-list">
+        <div class="list-row">
         </div>
       <ul/>
     </div>
     <div class="complete-area">
-      <p>完了したTODO</p>
-      <ul>
-        <li>TODOでした</li>
-        <div>
-          <button>戻す</button>
+      <p class="title">完了したTODO</p>
+      <ul id="complete-list">
+        <div class="list-row">
         </div>
       <ul/>
     </div>
   </body>
     
 
-    <script src="./index.mjs" type="module"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
